@@ -1,0 +1,276 @@
+$white: #ffffff;
+$shady: #ccc;
+
+body{
+    // background: #000;
+}
+.navbar{
+    background-color: none !important;
+
+    .wrapper{
+        width: 90%;
+        margin: 0 auto;
+
+        .navbar-brand{
+            text-indent: -10000px;
+            background-image: url(../photos/IB-ALLI.png);
+            width: 130px;
+            height: 40px;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        
+        .collapse{
+            float: right;
+
+            .navbar-nav{
+                .nav-item{
+                    margin-right: 30px;
+
+                    a{
+                        color: $white;
+                    }
+                }
+                .last-link{
+                    margin-right: 0px;
+                }
+
+                .active{
+                    border-bottom: 5px solid #890333;
+                }
+            }
+        }
+    }
+}
+
+.hero{
+    // background-image: url("../photos/joshua-aragon-1247600-unsplash.png");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../photos/joshua-aragon-1247600-unsplash.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .name{
+        width: 90%;
+        margin: 0 auto;
+
+        .title{
+            text-align: center;
+            color: $white;
+            margin-top: 5rem;
+            font-size: 60px;
+        }
+
+        p{
+            text-align: center;
+            color: $white;
+            margin-top: -1rem;
+            font-size: 20px;
+        }
+    }
+
+    .introduction{
+        width: 35%;
+        text-align: center;
+        margin: 0 auto;
+        color: $white;
+        font-size: 25px;
+    }
+
+    .action-button{
+
+        a{
+            margin-top: 40px;
+            border-radius: 0px;
+            padding: 12px 20px;
+            width: 50%;
+
+            img{
+                
+                width: 20px;
+                color: #fff;
+                margin-left: 20px;
+            }
+        }
+
+        .want-website-btn{
+            background-color: #890333;
+            color: $white;
+            border: 1px solid #890333;
+
+            &:hover{
+                background-color: rgba(255, 255, 255, 0.4);
+            }
+        }
+        
+        .hire-btn{
+            background-color: none;
+            color: $white;
+            border: 1px solid $white;
+
+            &:hover{
+                background-color: rgba(255, 255, 255, 0.4);
+            }
+        }
+    }
+
+    .online-contact{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 55px;
+        // padding: 0px;
+        // text-align: center;
+        
+        .social-link{
+            list-style: none;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+
+            img{
+                width: 40px;
+            }
+        }
+
+        #facebook{
+            margin: 0px;
+        }
+    }
+}
+.other-info-container{
+    // background-color: #101010;
+    // color: $white;
+    color: #101010;
+
+    .about-title{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+
+    .about-wrapper{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 4rem;
+        line-height: 40px;
+
+        ul{
+
+            li{
+                list-style-type: circle;
+            }
+        }
+    }
+
+    .tools{
+        width: 80%;
+        margin: 0 auto;
+        padding: 0px;
+
+        li{
+            float: left;
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        .work-tool{
+            margin-left: 30px;
+        }
+    }
+
+    #works-page{
+        width: 80%;
+        margin: 0 auto;
+
+        .work-title{
+            margin-top: 50px;
+        }
+    }
+
+    .work-samples{
+        width: 80%;
+        margin: 0 auto;
+
+        img{
+            margin-top: 20px;
+        }
+
+        figcaption{
+            // width: 0px;
+            display: none;
+            background: #ccc;
+            // transition: width 2s;
+            // .main-caption{
+            //     display: none;
+            // }
+        }
+    }
+    footer{
+        padding-top: 50px;
+        ul{
+            margin: 0;
+            float: left;
+            padding: 0;
+            li{
+                float: left;
+                margin-left: 30px;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    // color: $white;
+                    color: #101010;
+                    &:hover{
+                        color: $shady;
+                    }
+                }
+            }
+            .fbk{
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .navbar{
+        background-color: none !important;
+    
+        .wrapper{
+            width: 100%;
+
+            .navbar-toggler{
+                float: right;
+                border: 1px solid $white;
+            }
+            .collapse{
+                float: none;
+            }
+        }
+    }
+
+    .hero{
+        background-size: cover;
+        background-attachment: fixed;
+
+        .introduction{
+            width: 75%;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            color: $white;
+            font-size: 25px;
+        }
+            
+        .action-button{
+
+            button{
+                margin-top: 0px;
+                border-radius: 0px;
+                width: 100%;
+            }
+        }
+    }
+}

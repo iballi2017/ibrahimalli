@@ -1,0 +1,164 @@
+.navbar {
+  background-color: none !important; }
+  .navbar .wrapper {
+    width: 90%;
+    margin: 0 auto; }
+    .navbar .wrapper .navbar-brand {
+      text-indent: -10000px;
+      background-image: url(../photos/IB-ALLI.png);
+      width: 130px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 100% 100%; }
+    .navbar .wrapper .collapse {
+      float: right; }
+      .navbar .wrapper .collapse .navbar-nav .nav-item {
+        margin-right: 30px; }
+        .navbar .wrapper .collapse .navbar-nav .nav-item a {
+          color: #ffffff; }
+      .navbar .wrapper .collapse .navbar-nav .last-link {
+        margin-right: 0px; }
+      .navbar .wrapper .collapse .navbar-nav .active {
+        border-bottom: 5px solid #890333; }
+
+.hero {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../photos/joshua-aragon-1247600-unsplash.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .hero .name {
+    width: 90%;
+    margin: 0 auto; }
+    .hero .name .title {
+      text-align: center;
+      color: #ffffff;
+      margin-top: 5rem;
+      font-size: 60px; }
+    .hero .name p {
+      text-align: center;
+      color: #ffffff;
+      margin-top: -1rem;
+      font-size: 20px; }
+  .hero .introduction {
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 25px; }
+  .hero .action-button a {
+    margin-top: 40px;
+    border-radius: 0px;
+    padding: 12px 20px;
+    width: 50%; }
+    .hero .action-button a img {
+      width: 20px;
+      color: #fff;
+      margin-left: 20px; }
+  .hero .action-button .want-website-btn {
+    background-color: #890333;
+    color: #ffffff;
+    border: 1px solid #890333; }
+    .hero .action-button .want-website-btn:hover {
+      background-color: rgba(255, 255, 255, 0.4); }
+  .hero .action-button .hire-btn {
+    background-color: none;
+    color: #ffffff;
+    border: 1px solid #ffffff; }
+    .hero .action-button .hire-btn:hover {
+      background-color: rgba(255, 255, 255, 0.4); }
+  .hero .online-contact {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 55px; }
+    .hero .online-contact .social-link {
+      list-style: none;
+      float: left;
+      margin-left: 30px;
+      margin-bottom: 20px; }
+      .hero .online-contact .social-link img {
+        width: 40px; }
+    .hero .online-contact #facebook {
+      margin: 0px; }
+
+.other-info-container {
+  color: #101010; }
+  .other-info-container .about-title {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5rem; }
+  .other-info-container .about-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    line-height: 40px; }
+    .other-info-container .about-wrapper ul li {
+      list-style-type: circle; }
+  .other-info-container .tools {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px; }
+    .other-info-container .tools li {
+      float: left;
+      list-style: none;
+      margin-bottom: 30px; }
+    .other-info-container .tools .work-tool {
+      margin-left: 30px; }
+  .other-info-container #works-page {
+    width: 80%;
+    margin: 0 auto; }
+    .other-info-container #works-page .work-title {
+      margin-top: 50px; }
+  .other-info-container .work-samples {
+    width: 80%;
+    margin: 0 auto; }
+    .other-info-container .work-samples img {
+      margin-top: 20px; }
+    .other-info-container .work-samples figcaption {
+      display: none;
+      background: #ccc; }
+  .other-info-container footer {
+    padding-top: 50px; }
+    .other-info-container footer ul {
+      margin: 0;
+      float: left;
+      padding: 0; }
+      .other-info-container footer ul li {
+        float: left;
+        margin-left: 30px;
+        list-style: none; }
+        .other-info-container footer ul li a {
+          text-decoration: none;
+          color: #101010; }
+          .other-info-container footer ul li a:hover {
+            color: #ccc; }
+      .other-info-container footer ul .fbk {
+        margin-left: 0; }
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: none !important; }
+    .navbar .wrapper {
+      width: 100%; }
+      .navbar .wrapper .navbar-toggler {
+        float: right;
+        border: 1px solid #ffffff; }
+      .navbar .wrapper .collapse {
+        float: none; }
+
+  .hero {
+    background-size: cover;
+    background-attachment: fixed; }
+    .hero .introduction {
+      width: 75%;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      color: #ffffff;
+      font-size: 25px; }
+    .hero .action-button button {
+      margin-top: 0px;
+      border-radius: 0px;
+      width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
