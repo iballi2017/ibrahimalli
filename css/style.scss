@@ -2,7 +2,7 @@ $white: #ffffff;
 $shady: #ccc;
 
 body{
-    // background: #000;
+    background: #000;
 }
 .navbar{
     background-color: none !important;
@@ -15,7 +15,7 @@ body{
             text-indent: -10000px;
             background-image: url(../photos/IB-ALLI.png);
             width: 100px;
-            height: 25px;
+            height: 30px;
             background-repeat: no-repeat;
             background-size: 100% 100%;
         }
@@ -231,7 +231,6 @@ body{
     }
 }
 
-
 @media only screen and (max-width: 768px){
 
     .navbar{
@@ -242,12 +241,22 @@ body{
 
             .navbar-toggler{
                 float: right;
-                border: 2px solid $white;
+                // border: 2px solid $white;
+                    //  default reconfiguration   
+                padding: .25rem .75rem;
+                font-size: 1.25rem;
+                line-height: 1;
+                background-color: rgba(200,200,200,0.5) !important;
+                border: 1px solid transparent;
+                border-radius: .25rem;
             }
             .collapse{
                 float: none;
             }
         }
+    }
+
+    navbar-toggler {
     }
 
     .hero{
