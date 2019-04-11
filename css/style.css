@@ -6,7 +6,7 @@
     .navbar .wrapper .navbar-brand {
       text-indent: -10000px;
       background-image: url(../photos/IB-ALLI.png);
-      width: 130px;
+      width: 100px;
       height: 40px;
       background-repeat: no-repeat;
       background-size: 100% 100%; }
@@ -18,7 +18,7 @@
           color: #ffffff; }
       .navbar .wrapper .collapse .navbar-nav .last-link {
         margin-right: 0px; }
-      .navbar .wrapper .collapse .navbar-nav .active {
+      .navbar .wrapper .collapse .navbar-nav .active, .navbar .wrapper .collapse .navbar-nav .nav-item:hover {
         border-bottom: 5px solid #890333; }
 
 .hero {

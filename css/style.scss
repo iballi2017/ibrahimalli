@@ -14,7 +14,7 @@ body{
         .navbar-brand{
             text-indent: -10000px;
             background-image: url(../photos/IB-ALLI.png);
-            width: 130px;
+            width: 100px;
             height: 40px;
             background-repeat: no-repeat;
             background-size: 100% 100%;
@@ -35,7 +35,7 @@ body{
                     margin-right: 0px;
                 }
 
-                .active{
+                .active, .nav-item:hover{
                     border-bottom: 5px solid #890333;
                 }
             }
