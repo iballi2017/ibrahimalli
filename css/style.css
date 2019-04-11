@@ -141,7 +141,7 @@
       width: 100%; }
       .navbar .wrapper .navbar-toggler {
         float: right;
-        border: 1px solid #ffffff; }
+        border: 2px solid #ffffff; }
       .navbar .wrapper .collapse {
         float: none; }
 
@@ -156,9 +156,9 @@
       margin-bottom: 2rem;
       color: #ffffff;
       font-size: 25px; }
-    .hero .action-button button {
-      margin-top: 0px;
-      border-radius: 0px;
+    .hero .action-button a {
+      margin-top: 40px;
+      padding: 12px 20px;
       width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

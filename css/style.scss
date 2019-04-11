@@ -242,7 +242,7 @@ body{
 
             .navbar-toggler{
                 float: right;
-                border: 1px solid $white;
+                border: 2px solid $white;
             }
             .collapse{
                 float: none;
@@ -265,10 +265,10 @@ body{
         }
             
         .action-button{
-
-            button{
-                margin-top: 0px;
-                border-radius: 0px;
+                
+            a{
+                margin-top: 40px;
+                padding: 12px 20px;
                 width: 100%;
             }
         }
