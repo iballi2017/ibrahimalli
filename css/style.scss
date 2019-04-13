@@ -37,6 +37,7 @@ body{
 
                 .active, .nav-item:hover{
                     border-bottom: 5px solid #890333;
+                    transition: border-bottom 0.6s;
                 }
             }
         }

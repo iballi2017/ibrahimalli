@@ -22,7 +22,8 @@ body {
       .navbar .wrapper .collapse .navbar-nav .last-link {
         margin-right: 0px; }
       .navbar .wrapper .collapse .navbar-nav .active, .navbar .wrapper .collapse .navbar-nav .nav-item:hover {
-        border-bottom: 5px solid #890333; }
+        border-bottom: 5px solid #890333;
+        transition: border-bottom 0.6s; }
 
 .hero {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../photos/joshua-aragon-1247600-unsplash.png);
