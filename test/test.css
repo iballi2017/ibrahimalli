@@ -50,6 +50,7 @@ body{
   width: 90%;
   max-width: 400px;
   margin: auto;
+  margin-top: 1.5em !important;
   overflow: hidden;
   border: 1px solid #ccc;
 }

@@ -138,6 +138,9 @@ body {
       .other-info-container footer ul .fbk {
         margin-left: 0; }
 
+.content {
+  margin-top: 1.5em !important; }
+
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: none !important; }
