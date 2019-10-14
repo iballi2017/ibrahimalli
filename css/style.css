@@ -50,7 +50,7 @@ body {
     color: #ffffff;
     font-size: 25px; }
   .hero .action-button a {
-    margin-top: 40px;
+    margin-top: 1em;
     border-radius: 0px;
     padding: 12px 20px;
     width: 50%; }
@@ -93,7 +93,7 @@ body {
   .other-info-container .about-wrapper {
     width: 80%;
     margin: 0 auto;
-    margin-top: 4rem;
+    margin-top: 2em;
     line-height: 40px; }
     .other-info-container .about-wrapper ul li {
       list-style-type: circle; }
@@ -138,9 +138,6 @@ body {
       .other-info-container footer ul .fbk {
         margin-left: 0; }
 
-.content {
-  margin-top: 1.5em !important; }
-
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: none !important; }
@@ -167,7 +164,7 @@ body {
       color: #ffffff;
       font-size: 25px; }
     .hero .action-button a {
-      margin-top: 40px;
+      margin-top: 1em;
       padding: 12px 20px;
       width: 100%; } }
 @media only screen and (max-width: 425px) {
